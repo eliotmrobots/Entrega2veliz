@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <h1>Formulario para pedir turno de taller de chapa y pintura</h1>
+
+
+    <form id="turnoForm">
+        <!-- datos personales -->
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+        </div>
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id='apellido' required>
+        </div>
+        <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div>
+        <!-- datos del auto -->
+        <div>
+            <label for="marcaAuto">Marca del Auto:</label>
+            <input type="text" id="marcaAuto" required>
+        </div>
+        <div>
+            <label for="modelo">Modelo del Auto:</label>
+            <input type="text" id="modelo" required>
+        </div>
+        <div>
+            <label for="anio">Año del Auto:</label>
+            <input type="numb" id="anio" required>
+        </div>
+        <!-- datos de fecha y hora -->
+        <div>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" required>
+        </div>
+        <div>
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" required>
+        </div>
+        <!-- datos del servicio -->
+        <div>
+            <label for="servicio">Servicio:</label>
+            <select id="servicio" required>
+                <option value="pintura">Pintura</option>
+                <option value="chapa">Chapa</option>
+                <option value="ambos">Ambos</option>
+                <option value="detailing">Detailing</option>
+                <option value="pulido">Pulido</option>
+                <option value="otro">Otro</option>
+                <option value="todos">Todos</option>
+            </select>
+        </div>
+
+        <div>
+
+            <label for="observaciones">Observaciones:</label>
+            <textarea id="observaciones"></textarea>
+
+        </div>
+        <button type="submit">Pedir Turno</button>
+
+    </form>
+
+
+    <div id="turnosContainer"></div>
+
+
+
+
+
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
