@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -43,7 +44,7 @@
         </div>
         <div>
             <label for="anio">Año del Auto:</label>
-            <input type="numb" id="anio" required>
+            <input type="number" id="anio" required>
         </div>
         <!-- datos de fecha y hora -->
         <div>
@@ -58,13 +59,7 @@
         <div>
             <label for="servicio">Servicio:</label>
             <select id="servicio" required>
-                <option value="pintura">Pintura</option>
-                <option value="chapa">Chapa</option>
-                <option value="ambos">Ambos</option>
-                <option value="detailing">Detailing</option>
-                <option value="pulido">Pulido</option>
-                <option value="otro">Otro</option>
-                <option value="todos">Todos</option>
+
             </select>
         </div>
 
@@ -83,12 +78,11 @@
 
 
 
+    <div>
 
-
-
-
-
-    <script src="./js/index.js"></script>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+    <script src="./js/index.js" type="module"></script>
 </body>
 
 </html>

@@ -70,7 +70,9 @@ body {
 }
 
 .turno-card {
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 16px; 
     color: rgb(0, 0, 0);

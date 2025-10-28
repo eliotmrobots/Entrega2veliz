@@ -1,0 +1,11 @@
+{
+  "servicios": [
+    { "nombre": "Pintura", "precio": 45000 , "duracion": "7 dias"},
+    { "nombre": "Chapa", "precio": 25000 , "duracion": "5 dias"},
+    { "nombre": "Ambos", "precio": 65000 , "duracion": "10 dias"},
+    { "nombre": "Detailing", "precio": 15000 , "duracion": "1 dia"},
+    { "nombre": "Pulido", "precio": 12000 , "duracion": "1 dia"},
+    { "nombre": "Otro", "precio": 0 , "duracion": "A definir"},
+    { "nombre": "Todos", "precio": 85000 , "duracion": "A definir"}
+  ]
+}
